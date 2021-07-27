@@ -63,7 +63,6 @@ export default class Navbar extends React.Component{
    
     onSubmit(e){
         this.userData = JSON.parse(localStorage.getItem('user'))
-        //let {username, password, gender, description, job} = this.state
         let daftar = {
             username: this.userData.username,
             password:this.userData.password,

@@ -52,32 +52,33 @@ function MultiAxisLine (props) {
   }
   return(
   <>
-          <Card  style={{
-                    height: "600px",
-                    width: '1000px',
+    <Card  
+      style={{
+        height: "600px",
+        width: '1000px',
 
-                    position: 'fixed',
-                    top: '10%',
-                    left: '10%',
-                    margin: '20px 50px',
+        position: 'fixed',
+        top: '10%',
+        left: '10%',
+        margin: '20px 50px',
                   
-        }}>
-        <Card.Title>
-          <div className='header'>
-            <h1 className='title'>Multi Axis Line Chart</h1>
-            <div className='links'>
-              <a
-                className='btn btn-gh'
-                href='https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/MultiAxisLine.js'
-              >
-                Github Source
-              </a>
-            </div>
+      }}>
+      <Card.Title>
+        <div className='header'>
+          <h1 className='title'>Multi Axis Line Chart</h1>
+          <div className='links'>
+            <a
+              className='btn btn-gh'
+              href='https://github.com/reactchartjs/react-chartjs-2/blob/master/example/src/charts/MultiAxisLine.js'
+            >
+              Github Source
+            </a>
           </div>
-    </Card.Title>
-    <Card.Body>
-      <Line data={data} options={options} />
-    </Card.Body>
+        </div>
+      </Card.Title>
+      <Card.Body>
+        <Line data={data} options={options} />
+      </Card.Body>
     </Card>
   </>
   )

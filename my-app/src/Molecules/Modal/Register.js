@@ -1,7 +1,6 @@
 import Modal from 'react-bootstrap/Modal';
 import Button from 'react-bootstrap/Button'
 import {Form, Col, Row} from 'react-bootstrap'
-// import FloatingLabel from "react-bootstrap-floating-label";
 
 export default function Register(props) {
     if(!props.showRegister){
